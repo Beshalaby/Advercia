@@ -1,0 +1,647 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#logo{
+    width: 14vw;
+    margin-top: -2%;
+    margin-left: 1%;
+    position:absolute;
+}
+
+.buttonText{
+    font-size: 1vw;
+}
+.BoldButtonText{
+    font-size: 1vw;
+}
+
+.lightText{
+    color: black;
+}
+
+.nav-button{
+    overflow-x: hidden;
+    width: 20%;
+    min-width: 200px;
+    min-height: 75px;
+    margin-top: 3%;
+    margin-left: 75%;
+    position:absolute;
+    padding: 1%;
+    background-color: #f2d025;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 11%;
+    transition-duration: 0.4s;
+}
+
+.nav-button:hover{
+    width: 21%;
+    margin-left: 74.5%;
+    height: 12%;
+    margin-top: 2.75%;
+}
+.button2{
+    width: 20%;
+    min-width: 200px;
+    min-height: 75px;
+    margin-top: 1%;
+    margin-left: 16%;
+    position:absolute;
+    padding: 1%;
+    background-color: #f2d025;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 10%;
+    transition-duration: 0.4s;
+}
+
+.button2:hover{
+    width: 21%;
+    margin-left: 15.5%;
+    height: 11%;
+    margin-top: 0.75%;
+}
+.button3{
+    width: 20%;
+    min-width: 200px;
+    min-height: 75px;
+    margin-top: 1%;
+    margin-left: 15%;
+    position:absolute;
+    padding: 1%;
+    background-color: #f2d025;
+    color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    height: 10%;
+    transition-duration: 0.4s;
+}
+
+.button3:hover{
+    width: 21%;
+    margin-left: 14.5%;
+    height: 11%;
+    margin-top: 0.75%;
+}
+
+
+#sec-1{
+    background-color: #988eec;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@keyframes slideInDown {
+    0% {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 100%;
+    }
+}
+
+@keyframes slideFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 100%;
+      transform: rotate(-12deg);
+    }
+}
+
+@keyframes slideFromRight {
+    0% {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 100%;
+      transform: rotate(12deg);
+    }
+}
+
+.title{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 3.5vw;
+}
+
+.title h1{
+    animation: 0.5s ease-out 0s 1 slideInDown;
+}
+.title h3{
+    animation: 1s ease-out 0s 1 slideInDown;
+}
+
+#sec-2{
+    background-color: aliceblue;
+    min-height: 700px;
+}
+
+#sec-2-IMG{
+    border-radius: 100px;
+    margin-left: 15%;
+    margin-top: 10%;
+    width: 70%;
+}
+
+#sec-2 h1{
+    /*margin-left: 35%;*/
+    /*font-size: 2.5vw;*/
+    text-align: center;
+    font-size: xx-large;
+}
+
+#sec-2 h3{
+    text-align: center;
+    margin-top: 10%;
+    color: #988eec;
+}
+
+
+#sec-2-line1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    /*text-align: center;*/
+    margin-top: 4.5%;
+    width: 85%;
+    margin-left: 10%;
+}
+#sec-2-line2{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw;
+    /*text-align: center;*/
+    margin-top: 4.5%;
+    width: 85%;
+    margin-left: 10%;
+}
+
+#sec-2-calltoaction{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+    margin-top: 4%;
+}
+
+#sec-3{
+    background-color: #e8f0f8;
+    min-height: 90vh;
+}
+
+#sec-3-IMG{
+    border-radius: 100px;
+    margin-left: 15%;
+    margin-top: 5%;
+    width: 70%;
+}
+
+#sec-3 h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+#sec-3 h3{
+    text-align: center;
+    margin-top: 5%;
+    color: #988eec;
+}
+
+#sec-3-TEXT{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 5%;
+    /*text-align: center;*/
+    width: 85%;
+    font-size: 1.2vw;
+    margin-left: 5%;
+    
+}
+
+#sec-3-calltoaction{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 1.2vw;
+}
+
+#sec-4{
+    background-color: aliceblue;
+    min-height: 110vh;
+}
+
+.leftSide{
+    width: 50%; 
+    height: 80vh; 
+    float: left; 
+}
+.rightSide{
+    width: 50%; 
+    height: 80vh; 
+    float: right; 
+}
+
+section{
+    min-height: 85vh;
+    width: 100%;
+}
+
+.scroll-down{
+    border: 2px solid black;
+    position: absolute;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+#scroll1{
+    height: 50px;
+    width: 80px;
+
+    bottom: 20px;
+    left: 48%;
+}
+
+#scroll2{
+    height: 80px;
+    width: 50px;
+
+    bottom: -85vh;
+    left: 93%;
+}
+
+#scroll3{
+    height: 80px;
+    width: 50px;
+
+    bottom: -175vh;
+    left: 93%;
+}
+
+.scroll{
+    color: black;
+    position: absolute;
+    left: 47%;
+    text-align: center;
+    bottom: 80px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.scroll-down::before,
+.scroll-down::after{
+    content: '';
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    height: 10px;
+    width: 10px;
+    transform:translate(-50%, -100%) rotate(45deg);
+    border: 2px solid black;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+
+.scroll-down::before{
+    top: 30%;
+    animation-delay: .3s;
+}
+
+@keyframes scroll-down{
+    0%{
+        opacity: 0;
+    }
+    30%{
+        opacity: 1;
+    }
+    60%{
+        opacity: 1;
+    }
+    100%{
+        top:90%;
+        opacity:0;
+    }
+}
+
+.icons{
+    position: absolute;
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.icons img{
+    width: 80%;
+    border-radius: 50%;
+    background-color: #e0e0e0;
+    margin-bottom: 15%;
+}
+
+#left-side{
+    left: 1%;
+    margin-left: -10px; /* Adjust the margin to move the icons closer to the edge */
+}
+
+#right-side{
+    right: 1%;
+    margin-right: -10px; /* Adjust the margin to move the icons closer to the edge */
+}
+
+#left-side img{
+    transform: rotate(-12deg); /* Adjust the tilt angle as desired */
+    animation: 1.5s ease-out 0s 1 slideFromLeft;
+}
+#right-side img{
+    transform: rotate(12deg); /* Adjust the tilt angle as desired */
+    animation: 1.5s ease-out 0s 1 slideFromRight;
+}
+
+.calendly-inline-widget{
+    margin-left: 5vw;
+    margin-top: -3%;
+    width: 40vw;
+    height: 120vh;
+    transform: scale(0.8); 
+    overflow: hidden;
+    
+}
+.callTitle{
+    font-size: 2vw;
+}
+.callText{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2vw; 
+    margin-top: 4.5%;
+    width: 70%;
+}
+
+.reason{
+    margin-bottom: 3%;
+    width: 75%;
+    line-height: 150%;
+    font-size: 1.2vw;
+}
+
+.reason p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.reason span{
+    float: left;
+    margin-right: 1%;
+}
+.reason2{
+    margin-bottom: 3%;
+    width: 75%;
+    line-height: 150%;
+    font-size: 1vw;
+}
+
+.reason2 p{
+    font-family: 'Poppins', sans-serif;
+}
+
+.reason2 span{
+    float: left;
+    margin-right: 1%;
+}
+
+#portrait{
+    width: 12%;
+    border-radius: 50%;
+    float: right;
+    margin-right: 20%;
+    border: 4px solid#988eec;
+}
+
+.reasonContainer{
+    margin-left: 10%;
+    margin-top: 3%;
+}
+
+.callSection{
+    width: 50%; 
+    height: 40vh; 
+    float: right;
+    margin-top: 5%;
+}
+.everythingElse{
+    width: 50%; 
+    height: 40vh; 
+    float: right;
+}
+
+.hide{
+    font-family: 'Poppins', sans-serif;
+    font-size: x-small;
+    margin-bottom: -5%;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 760px) {
+body {
+    overflow-x: hidden;
+}
+}
+
+@media only screen and (max-width: 760px) {
+    .nav-button{
+        margin: 0;
+        margin-top: 4%;
+        left: 45%;
+        height: 7%;
+    }
+    #logo{
+        width: 35%;
+    }
+    .title{
+        margin-top: -20%;
+        z-index: 9999;
+        width: 95%;
+        margin-left: 2.5%;
+    }
+    .scroll{
+        left: 39%;
+    }
+    #scroll1{
+        left: 42%;
+    }
+
+    #scroll2{
+        left: 42%;
+        bottom: -80vh;
+        height: 50px;
+        width: 80px;
+        display: none;
+    }
+    #scroll3{
+        left: 42%;
+        bottom: -170vh;
+        height: 50px;
+        width: 80px;
+        display: none;
+    }
+    #sec-2{
+       min-height: 80vh; 
+    }
+    #sec-2-right{
+        width: 25%;
+    }
+    #sec-2-left{
+        width: 75%;
+    }
+   #sec-2-IMG{
+    width: 95%;
+    margin-left: -5%;
+
+   }
+   #sec-2-line1{
+    font-size: 3.5vw;
+    width: 115%;
+   }
+   #sec-2-line2{
+    font-size: 3.5vw;
+    width: 115%;
+   }
+   #sec-2-calltoaction{
+    margin-top: 10%;
+    font-size: 3.3vw;
+    width: 115%;
+   }
+   .button2{
+    margin-left: 25%;
+    margin-top: 5%;
+    height: 7%;
+   }
+   #sec-3-right{
+    width: 75%;
+    }
+    #sec-3-left{
+    width: 25%;
+    }
+    #sec-3-IMG{
+        width: 95%;
+        margin-left: 5%;
+    }
+    #sec-3-TEXT{
+    font-size: 3.5vw;
+    width: 115%;
+    margin-left: -25%;
+    }
+    .reason p{
+    font-size: 3.2vw;
+    width: 115%;
+    line-height: 150%;
+    }
+
+    .reason{
+        margin-left: -15%;
+    }
+
+    #sec-3-calltoaction{
+        font-size: 3.3vw;
+        width: 115%;
+        margin-left: -25%;
+        margin-top: 12%;
+    }
+
+    .button3{
+        margin-top: 3%;
+        margin-left: 0%;
+        margin-top: 5%;
+        height: 7%;
+    }
+
+    .reasonContainer{
+        margin-top: 2%;
+        margin-bottom: 2%;
+    }
+
+    #sec-3{
+        min-height: 80vh;
+    }
+
+    #sec-4{
+        min-height: 1500px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sec-4-left{
+        width: 100%;
+        margin-top: 0%;
+        height: 60%;
+        margin-left: -1vh;
+    }
+    .everythingElse{
+      width: 100%;
+    }
+    .calendly-inline-widget{
+        height: 870px;
+        width: 100%;
+        margin-top: -17%;
+
+    }
+    .callSection{
+        width: 100%;
+        margin-top: 10%;
+    }
+    .callSection h1{
+        margin-left: 12%;
+    }
+    .callSection h3{
+        margin-left: 12%;
+    }
+    .callSection p{
+        margin-left: 12%;
+        font-size: 3.5vw;
+    }
+    .reason2 p{
+        font-size: 3.2vw;
+        width: 115%;
+        line-height: 150%;
+    }
+    .reason2{
+        margin-left: 10%;
+    }
+    .everythingElse h3{
+        text-align: center;
+        margin-top: -15%;
+    }
+    .hide{
+        display: none;
+    }
+    .BlightText{
+        margin-top: -10px;
+    }
+    .icons{
+        width: 20vw;
+        margin-top: -20%;
+    }
+    .icons img{
+        z-index: 1;
+    }
+  }
